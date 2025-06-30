@@ -27,9 +27,8 @@ Das Repository ist nach den Kapiteln des Buches gegliedert:
 - Git & GitHub zur Versionskontrolle
 - Markdown für Notizen in Obsidian
 
-## 🙋‍♂️ Über mich
-
-Ich bin ein motivierter Quereinsteiger mit großer Begeisterung für Softwareentwicklung und DevOps.  
-Aktuell bereite ich mich intensiv auf einen dualen Studiengang in Wirtschaftspsychologie / Softwareengineering vor.  
-Dieses Repository ist Teil meines autodidaktischen Wegs, vielen Dank fürs lesen ✌️
+🙋‍♂️ Über mich  
+Ich bin ein engagierter Quereinsteiger mit starkem Interesse an Softwareentwicklung und DevOps.  
+Aktuell bereite ich mich auf einen dualen Studiengang in Wirtschaftsinformatik / Software Engineering vor.  
+Dieses Repository ist Teil meines autodidaktischen Weges – vielen Dank fürs Reinschauen! ✌️
 
