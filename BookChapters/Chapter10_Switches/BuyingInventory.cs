@@ -11,35 +11,50 @@ public static class BuyingInventory
 		Console.WriteLine("Enter a number from 1 to 7 to select an Item!");
 		Console.WriteLine("1 – Rope\r\n2 – Torches\r\n3 – Climbing Equipment\r\n4 – Clean Water\r\n5 – Machete\r\n6 – Canoe\r\n7 – Food Supplies");
 
-		int number = Convert.ToInt32(Console.ReadLine());
+        int number = Convert.ToInt32(Console.ReadLine());
+        int price = 0;
 
         switch (number)
 		{
 			case 1:
-				Console.WriteLine("The Rope costs 10 gold!");
+				price = 10;
+				Console.WriteLine($"The Rope costs {price} gold!");
 				break;
 			case 2:
-				Console.WriteLine("The Torches costs 15 gold!");
+				price = 15;
+				Console.WriteLine($"The Torches costs {price} gold!");
 				break;
 			case 3:
-				Console.WriteLine("The Climbing Equipment costs 25 gold!");
+				price = 25;
+				Console.WriteLine($"The Climbing Equipment costs {price} gold!");
 				break;
 			case 4:
-				Console.WriteLine("Clean Water costs 1 gold!");
+				price = 1;
+				Console.WriteLine($"Clean Water costs {price} gold!");
 				break;
 			case 5:
-				Console.WriteLine("A Machete costs 20 gold! ");
+				price = 20;
+				Console.WriteLine($"A Machete costs {price} gold! ");
 				break;
 			case 6:
-				Console.WriteLine("A Canoe costs 200 gold!");
+				price = 200;
+				Console.WriteLine($"A Canoe costs {price} gold!");
 				break;
 			case 7:
-				Console.WriteLine("Food Supplies costs 1 gold!");
+				price = 1;
+				Console.WriteLine($"Food Supplies costs {price} gold!");
 				break;
 			default:
 				Console.WriteLine("That Item is currently not avalible");
 				break;
 
 		}
+        Console.Write("What is your name? ");
+        string name = Console.ReadLine();
+        if (name == "Vincent")
+		{
+			price /= 2; // Rabatt
+		}
+		Console.WriteLine($"That will cost {price} gold!");
 	}
 }
