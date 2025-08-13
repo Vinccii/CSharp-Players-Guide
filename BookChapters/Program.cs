@@ -7,4 +7,5 @@ using CsharpPlayersGuide.Chapter11_Looping;
 // RepairingTheClocktower.Run();
 //Watchtower.Run();
 //BuyingInventory.Run();
-ThePrototype.Run();
+//ThePrototype.Run();
+TheMagicCannon.Run();
