@@ -10,4 +10,5 @@ using CsharpPlayersGuide.Chapter12_Arrays;
 //BuyingInventory.Run();
 //ThePrototype.Run();
 //TheMagicCannon.Run();
-TheReplicatorOfDo_To.Run();
+//TheReplicatorOfDo_To.Run();
+//The_Laws_of_Freach.Run();
