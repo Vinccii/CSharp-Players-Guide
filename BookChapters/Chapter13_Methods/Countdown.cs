@@ -6,17 +6,16 @@ namespace CsharpPlayersGuide.Chapter13_Methods
     {
         public static void Run()
         {
-            // starte den Countdown bei 10
-            Countdown(10);
+          
+            DoCountdown(10);
         }
         
-        static void Countdown(int number)
+         static void DoCountdown(int number)
         {
-            // base Case: Wenn die Zahl bei 0 ist, soll die Methode aufhören
+            if (number == 0) return;
 
-            // Gibt die aktuelle Zahl auf der Konsole aus
-
-            // Rekursiver Aufruf: Ruf Countdown nochmal mit (nummber -1) auf
+            Console.WriteLine(number);
+            DoCountdown(number - 1);
         }
     }
 }
